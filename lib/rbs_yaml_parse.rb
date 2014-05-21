@@ -1,5 +1,3 @@
-require "rbs_yaml_parse/version"
+require 'rbs_yaml_parse/version'
+require 'rbs_yaml_parse/cli'
 
-module RbsYamlParse
-  # Your code goes here...
-end
