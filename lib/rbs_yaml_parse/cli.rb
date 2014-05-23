@@ -1,10 +1,8 @@
 module RbsYamlParse
    class CLI
 
-      attr_reader :filename
-
       def initialize(args)
-         @filename = args[0] if args.size > 0
+         @filename = args.size > 0 ? args[0] : nil
       end
 
       def run
