@@ -13,6 +13,7 @@ module RbsYamlParse
          exec_info = parse_results.shift
 
          print_list = []
+         print_list << header_list
          parse_results.each do |parse_result|
             next if parse_result.has_key?("status")
 
@@ -33,6 +34,9 @@ module RbsYamlParse
          0
       end
 
+      def header_str
+         "name,parameter,max,min,memory(avg)\n"
+      end
    end
 end
 
