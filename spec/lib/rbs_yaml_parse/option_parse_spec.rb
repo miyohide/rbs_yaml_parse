@@ -23,8 +23,13 @@ describe RbsYamlParse::OptionParse do
       parser = RbsYamlParse::OptionParse.new(%w(-d dirname -a --hogehoge))
 
       expect { parser.parse }.to raise_error(OptionParser::InvalidOption)
-
-
    end
+
+   it "parse fail (required option is nothing.)" do
+      parser = RbsYamlParse::OptionParse.new(%w(-a --maxmem --minmem --avgmem --maxtime --mintime --avgtime))
+
+      expect { parser.parse }.to raise_error(OptionParser::ParseError)
+   end
+
 end
 

@@ -24,6 +24,10 @@ module RbsYamlParse
 
          opt.parse!(@args)
 
+         if !params.has_key?(:d)
+            raise OptionParser::ParseError
+         end
+
          params
       end
    end
