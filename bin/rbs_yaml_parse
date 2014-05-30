@@ -8,9 +8,10 @@ $LOAD_PATH.unshift(File.dirname(File.realpath(__FILE__)) + '/../lib')
 require 'rbs_yaml_parse'
 
 cli = RbsYamlParse::CLI.new(ARGV)
-result = 0
 
-result = cli.run
-
-exit result
+begin
+   cli.run!
+rescue
+   
+end
 
