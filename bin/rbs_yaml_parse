@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 
-require 'yaml'
-
 $LOAD_PATH.unshift(File.dirname(File.realpath(__FILE__)) + '/../lib')
 
 require 'rbs_yaml_parse'

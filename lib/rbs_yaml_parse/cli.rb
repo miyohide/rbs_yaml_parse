@@ -1,3 +1,5 @@
+require 'yaml'
+
 module RbsYamlParse
    class CLI
 
