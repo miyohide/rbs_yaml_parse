@@ -101,6 +101,39 @@ EOS
                expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { min: 7.693091928, max: 7.745933742 }}})
             end
          end
+
+         context "option is --maxmem" do
+            before do
+               @cli = RbsYamlParse::CLI.new(%w(-d foo --maxmem))
+            end
+
+            it "print maxmem" do
+               @cli.run!
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { maxmem: 62676992 }}})
+            end
+         end
+
+         context "option is --minmem" do
+            before do
+               @cli = RbsYamlParse::CLI.new(%w(-d foo --minmem))
+            end
+
+            it "print minmem" do
+               @cli.run!
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { minmem: 43364352 }}})
+            end
+         end
+
+         context "option is --avgmem" do
+            before do
+               @cli = RbsYamlParse::CLI.new(%w(-d foo --avgmem))
+            end
+
+            it "print avgmem" do
+               @cli.run!
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { avgmem: 54516121.6 }}})
+            end
+         end
       end
 
    end
