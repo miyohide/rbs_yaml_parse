@@ -131,7 +131,7 @@ EOS
 
             it "print avgmem" do
                @cli.run!
-               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { avgmem: 54516121.6 }}})
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { avgmem: 54516121 }}})
             end
          end
       end
