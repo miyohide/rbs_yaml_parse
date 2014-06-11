@@ -22,7 +22,7 @@ module RbsYamlParse
                   next if doc["min"].nil?
                   key = [File.basename(doc["name"]), doc["parameter"]]
 
-                  @data[key][yaml_file]    = doc["min"]
+                  @data[key][yaml_file] = val_map(doc, params)
                end
             }
          end
@@ -38,6 +38,34 @@ module RbsYamlParse
 
             puts one_line
          end
+      end
+
+      def val_map(yaml_doc, params)
+         val = {}
+         if params[:mintime]
+            val[:min] = yaml_doc["min"]
+         end
+
+         if params[:maxtime]
+            val[:max] = yaml_doc["max"]
+         end
+
+         if params[:avgtime]
+            val[:avg] = yaml_doc["mean"]
+         end
+
+         if params[:maxmem]
+            val[:maxmem] = yaml_doc["memory_usages"].max
+         end
+
+         if params[:minmem]
+            val[:minmem] = yaml_doc["memory_usages"].min
+         end
+
+         if params[:avgmem]
+            val[:avgmem] = yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
+         end
+         val
       end
    end
 end
