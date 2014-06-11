@@ -31,5 +31,21 @@ describe RbsYamlParse::OptionParse do
       expect { parser.parse }.to raise_error(OptionParser::ParseError)
    end
 
+   it "a option is all parameter true" do
+      parser = RbsYamlParse::OptionParse.new(%w(-d dirname -a))
+
+      parse_result = parser.parse
+
+      expect(parse_result).to include(d: "dirname")
+      expect(parse_result).to include(a: true)
+      expect(parse_result).to include(maxmem: true)
+      expect(parse_result).to include(minmem: true)
+      expect(parse_result).to include(avgmem: true)
+
+      expect(parse_result).to include(maxtime: true)
+      expect(parse_result).to include(mintime: true)
+      expect(parse_result).to include(avgtime: true)
+   end
+
 end
 
