@@ -28,6 +28,12 @@ module RbsYamlParse
             raise OptionParser::ParseError
          end
 
+         if params.has_key?(:a) && params[:a]
+            params[:maxmem] = params[:minmem] =
+               params[:avgmem] = params[:maxtime] =
+               params[:mintime] = params[:avgtime] = true
+         end
+
          params
       end
    end
