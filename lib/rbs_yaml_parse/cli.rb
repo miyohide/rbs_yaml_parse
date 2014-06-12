@@ -27,31 +27,21 @@ module RbsYamlParse
             }
          end
 
-         @data.keys.each do |k|
-            one_line = k.join(",")
-
-            one_line = yaml_files.inject(one_line + ",") do |sum, yaml_file|
-               sum + @data[k][yaml_file].to_s + ","
-            end
-
-            one_line.gsub!(/,+\Z/, '')
-
-            puts one_line
-         end
+         output_data(params, yaml_files)
       end
 
       def val_map(yaml_doc, params)
          val = {}
          if params[:mintime]
-            val[:min] = yaml_doc["min"]
+            val[:mintime] = yaml_doc["min"]
          end
 
          if params[:maxtime]
-            val[:max] = yaml_doc["max"]
+            val[:maxtime] = yaml_doc["max"]
          end
 
          if params[:avgtime]
-            val[:avg] = yaml_doc["mean"]
+            val[:avgtime] = yaml_doc["mean"]
          end
 
          if params[:maxmem]
@@ -66,6 +56,39 @@ module RbsYamlParse
             val[:avgmem] = yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
          end
          val
+      end
+
+      def output_data(params, yaml_files)
+         params_keys = %w[mintime maxtime avgtime minmem maxmem avgmem]
+
+         params_keys.each do |params_key|
+            next unless params.has_key?(params_key.to_sym)
+
+            @data.keys.each do |data_key|
+               one_line = data_key.join(",")
+
+               one_line = yaml_files.inject(one_line + ",") do |sum, yaml_file|
+                  sum + @data[data_key][yaml_file][params_key.to_sym].to_s + ","
+               end
+
+               # delete last comma(,)
+               one_line.gsub!(/,+\Z/, '')
+
+               puts one_line
+            end
+         end
+
+         # @data.keys.each do |k|
+         #    one_line = k.join(",")
+
+         #    one_line = yaml_files.inject(one_line + ",") do |sum, yaml_file|
+         #       sum + @data[k][yaml_file].to_s + ","
+         #    end
+
+         #    one_line.gsub!(/,+\Z/, '')
+
+         #    puts one_line
+         # end
       end
    end
 end
