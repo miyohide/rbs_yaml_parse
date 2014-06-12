@@ -65,7 +65,7 @@ EOS
 
             it "print min time" do
                @cli.run!
-               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { min: 7.693091928 }}})
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { mintime: 7.693091928 }}})
             end
          end
 
@@ -76,7 +76,7 @@ EOS
 
             it "print max time" do
                @cli.run!
-               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { max: 7.745933742 }}})
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { maxtime: 7.745933742 }}})
             end
          end
 
@@ -87,7 +87,7 @@ EOS
 
             it "print avg time" do
                @cli.run!
-               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { avg: 7.7073879756 }}})
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { avgtime: 7.7073879756 }}})
             end
          end
 
@@ -98,7 +98,7 @@ EOS
 
             it "print min and max time" do
                @cli.run!
-               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { min: 7.693091928, max: 7.745933742 }}})
+               expect(@cli.data).to eq({["bm_gzip.rb", 100] => {"hoge.yaml" => { mintime: 7.693091928, maxtime: 7.745933742 }}})
             end
          end
 
