@@ -77,18 +77,6 @@ module RbsYamlParse
                puts one_line
             end
          end
-
-         # @data.keys.each do |k|
-         #    one_line = k.join(",")
-
-         #    one_line = yaml_files.inject(one_line + ",") do |sum, yaml_file|
-         #       sum + @data[k][yaml_file].to_s + ","
-         #    end
-
-         #    one_line.gsub!(/,+\Z/, '')
-
-         #    puts one_line
-         # end
       end
    end
 end
