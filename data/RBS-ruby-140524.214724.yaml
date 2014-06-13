@@ -1,0 +1,3032 @@
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_gzip.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_gzip.rb
+parameter: 100
+iterations: 5
+max: 10.562
+min: 10.119
+median: 10.183
+mean: 10.2522
+standard_deviation: 0.15868131585035442
+times:
+- 10.562
+- 10.227
+- 10.183
+- 10.17
+- 10.119
+memory_usages:
+- 186519552
+- 190509056
+- 195686400
+- 195850240
+- 197951488
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_gzip.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameters:
+- 10
+- 20
+- 30
+- 40
+- 50
+- 60
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 10
+iterations: 5
+max: 0.295
+min: 0.049
+median: 0.073
+mean: 0.11280000000000001
+standard_deviation: 0.09167856892425841
+times:
+- 0.295
+- 0.08
+- 0.073
+- 0.067
+- 0.049
+memory_usages:
+- 177623040
+- 180752384
+- 183275520
+- 189181952
+- 185102336
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 20
+iterations: 5
+max: 0.3
+min: 0.159
+median: 0.206
+mean: 0.223
+standard_deviation: 0.049238196555113585
+times:
+- 0.3
+- 0.255
+- 0.206
+- 0.195
+- 0.159
+memory_usages:
+- 196304896
+- 194748416
+- 190656512
+- 212443136
+- 212459520
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 30
+iterations: 5
+max: 0.681
+min: 0.418
+median: 0.658
+mean: 0.6156
+standard_deviation: 0.0997649236956557
+times:
+- 0.681
+- 0.678
+- 0.658
+- 0.643
+- 0.418
+memory_usages:
+- 215859200
+- 243720192
+- 263618560
+- 272642048
+- 280494080
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 40
+iterations: 5
+max: 1.164
+min: 0.361
+median: 0.393
+mean: 0.5436
+standard_deviation: 0.3114158634366592
+times:
+- 1.164
+- 0.437
+- 0.393
+- 0.363
+- 0.361
+memory_usages:
+- 277389312
+- 281837568
+- 286486528
+- 290799616
+- 295002112
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 50
+iterations: 5
+max: 0.859
+min: 0.796
+median: 0.817
+mean: 0.8196
+standard_deviation: 0.02122828302053652
+times:
+- 0.859
+- 0.817
+- 0.808
+- 0.818
+- 0.796
+memory_usages:
+- 303468544
+- 313626624
+- 311685120
+- 316317696
+- 325443584
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+parameter: 60
+iterations: 5
+max: 1.699
+min: 1.669
+median: 1.686
+mean: 1.6838000000000002
+standard_deviation: 0.012416118556135036
+times:
+- 1.669
+- 1.699
+- 1.67
+- 1.686
+- 1.695
+memory_usages:
+- 336179200
+- 352350208
+- 363593728
+- 374153216
+- 385232896
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_hilbert_matrix.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_mpart.rb
+parameters:
+- 300
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_mpart.rb
+parameter: 300
+iterations: 5
+max: 0.829
+min: 0.364
+median: 0.462
+mean: 0.5346
+standard_deviation: 0.16053361018802262
+times:
+- 0.829
+- 0.566
+- 0.462
+- 0.452
+- 0.364
+memory_usages:
+- 182411264
+- 189644800
+- 184553472
+- 185655296
+- 185659392
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_mpart.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_norvig_spelling.rb
+parameters:
+- 50
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_norvig_spelling.rb
+parameter: 50
+iterations: 5
+max: 6.464
+min: 4.087
+median: 4.351
+mean: 4.7654000000000005
+standard_deviation: 0.891322298610329
+times:
+- 6.464
+- 4.831
+- 4.351
+- 4.094
+- 4.087
+memory_usages:
+- 329650176
+- 345825280
+- 351662080
+- 347578368
+- 353853440
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_norvig_spelling.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_parse_log.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_parse_log.rb
+parameter: 100
+iterations: 5
+max: 1.135
+min: 0.616
+median: 0.633
+mean: 0.7334
+standard_deviation: 0.2016121028113144
+times:
+- 1.135
+- 0.666
+- 0.633
+- 0.616
+- 0.617
+memory_usages:
+- 181903360
+- 182702080
+- 186249216
+- 186884096
+- 186970112
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_parse_log.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_rcs.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_rcs.rb
+parameter: 100
+iterations: 5
+max: 2.169
+min: 0.129
+median: 0.257
+mean: 0.6062000000000001
+standard_deviation: 0.7844647602027768
+times:
+- 2.169
+- 0.257
+- 0.321
+- 0.155
+- 0.129
+memory_usages:
+- 217047040
+- 218296320
+- 230748160
+- 235106304
+- 239341568
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_rcs.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_sudoku.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_sudoku.rb
+parameter: 1
+iterations: 5
+max: 4.181
+min: 2.896
+median: 3.059
+mean: 3.2262
+standard_deviation: 0.48404107263743645
+times:
+- 4.181
+- 3.059
+- 3.093
+- 2.896
+- 2.902
+memory_usages:
+- 195375104
+- 206438400
+- 211877888
+- 216084480
+- 218202112
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/macro-benchmarks/bm_sudoku.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_factorial.rb
+parameters:
+- 5000
+- 10000
+- 20000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_factorial.rb
+parameter: 5000
+status: "Java::JavaLang::StackOverflowError  home.miyoshi.ruby_minus_benchmark_minus_suite.benchmarks.micro_minus_benchmarks.bm_app_factorial.method__0$RUBY$fact(/home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_factorial.rb:2)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_factorial.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_fib.rb
+parameters:
+- 30
+- 35
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_fib.rb
+parameter: 30
+iterations: 5
+max: 0.133
+min: 0.039
+median: 0.045
+mean: 0.0618
+standard_deviation: 0.03583517824708007
+times:
+- 0.133
+- 0.041
+- 0.045
+- 0.051
+- 0.039
+memory_usages:
+- 176611328
+- 179175424
+- 179847168
+- 179994624
+- 176345088
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_fib.rb
+parameter: 35
+iterations: 5
+max: 0.41
+min: 0.405
+median: 0.408
+mean: 0.40779999999999994
+standard_deviation: 0.001599999999999982
+times:
+- 0.408
+- 0.405
+- 0.408
+- 0.408
+- 0.41
+memory_usages:
+- 172396544
+- 172847104
+- 172912640
+- 173719552
+- 173740032
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_fib.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_mandelbrot.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_mandelbrot.rb
+parameter: 1
+iterations: 5
+max: 0.577
+min: 0.121
+median: 0.126
+mean: 0.2232
+standard_deviation: 0.17789704887940103
+times:
+- 0.577
+- 0.171
+- 0.121
+- 0.126
+- 0.121
+memory_usages:
+- 180957184
+- 187817984
+- 194064384
+- 198889472
+- 205254656
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_mandelbrot.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_pentomino.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_pentomino.rb
+parameter: 1
+iterations: 5
+max: 35.742
+min: 30.648
+median: 32.027
+mean: 32.5906
+standard_deviation: 1.819140192508537
+times:
+- 35.742
+- 33.344
+- 32.027
+- 31.192
+- 30.648
+memory_usages:
+- 316821504
+- 339791872
+- 341528576
+- 342994944
+- 343736320
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_pentomino.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tak.rb
+parameters:
+- 7
+- 8
+- 9
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tak.rb
+parameter: 7
+iterations: 5
+max: 0.407
+min: 0.041
+median: 0.044
+mean: 0.1162
+standard_deviation: 0.1454089405779438
+times:
+- 0.407
+- 0.043
+- 0.044
+- 0.041
+- 0.046
+memory_usages:
+- 176074752
+- 177782784
+- 174936064
+- 174944256
+- 174944256
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tak.rb
+parameter: 8
+iterations: 5
+max: 0.12
+min: 0.111
+median: 0.116
+mean: 0.1162
+standard_deviation: 0.0031874754901018423
+times:
+- 0.111
+- 0.115
+- 0.119
+- 0.12
+- 0.116
+memory_usages:
+- 174727168
+- 174735360
+- 174813184
+- 174882816
+- 174891008
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tak.rb
+parameter: 9
+iterations: 5
+max: 0.296
+min: 0.293
+median: 0.296
+mean: 0.295
+standard_deviation: 0.0012649110640673528
+times:
+- 0.296
+- 0.296
+- 0.296
+- 0.293
+- 0.294
+memory_usages:
+- 174911488
+- 174915584
+- 175054848
+- 175165440
+- 175165440
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tak.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tarai.rb
+parameters:
+- 3
+- 4
+- 5
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tarai.rb
+parameter: 3
+iterations: 5
+max: 0.344
+min: 0.094
+median: 0.104
+mean: 0.15119999999999997
+standard_deviation: 0.09656997462979887
+times:
+- 0.344
+- 0.112
+- 0.102
+- 0.094
+- 0.104
+memory_usages:
+- 173207552
+- 171708416
+- 171974656
+- 169480192
+- 169934848
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tarai.rb
+parameter: 4
+iterations: 5
+max: 0.118
+min: 0.112
+median: 0.113
+mean: 0.11400000000000002
+standard_deviation: 0.0020976176963402996
+times:
+- 0.112
+- 0.114
+- 0.113
+- 0.118
+- 0.113
+memory_usages:
+- 170225664
+- 170909696
+- 171020288
+- 171503616
+- 171507712
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tarai.rb
+parameter: 5
+iterations: 5
+max: 0.144
+min: 0.136
+median: 0.139
+mean: 0.1396
+standard_deviation: 0.002727636339397162
+times:
+- 0.144
+- 0.141
+- 0.138
+- 0.136
+- 0.139
+memory_usages:
+- 171520000
+- 171524096
+- 171663360
+- 171769856
+- 171778048
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_app_tarai.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_binary_trees.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_binary_trees.rb
+parameter: 1
+iterations: 5
+max: 6.639
+min: 4.591
+median: 4.651
+mean: 5.1004
+standard_deviation: 0.7820131968195934
+times:
+- 6.639
+- 4.985
+- 4.651
+- 4.636
+- 4.591
+memory_usages:
+- 366145536
+- 377368576
+- 383995904
+- 382595072
+- 382763008
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_binary_trees.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_cal.rb
+parameters:
+- 500
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_cal.rb
+parameter: 500
+iterations: 5
+max: 1.833
+min: 0.199
+median: 0.311
+mean: 0.6971999999999999
+standard_deviation: 0.6191634356129244
+times:
+- 1.833
+- 0.886
+- 0.311
+- 0.257
+- 0.199
+memory_usages:
+- 210878464
+- 223092736
+- 228048896
+- 228098048
+- 228106240
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_cal.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameters:
+- 1
+- 2
+- 4
+- 8
+- 16
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameter: 1
+iterations: 5
+max: 0.05
+min: 0.008
+median: 0.012
+mean: 0.0194
+standard_deviation: 0.015692036196746428
+times:
+- 0.05
+- 0.008
+- 0.012
+- 0.018
+- 0.009
+memory_usages:
+- 156213248
+- 156622848
+- 158752768
+- 160530432
+- 160628736
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameter: 2
+iterations: 5
+max: 0.012
+min: 0.009
+median: 0.01
+mean: 0.0102
+standard_deviation: 0.0011661903789690605
+times:
+- 0.009
+- 0.011
+- 0.012
+- 0.01
+- 0.009
+memory_usages:
+- 161828864
+- 159395840
+- 159481856
+- 159518720
+- 159535104
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameter: 4
+iterations: 5
+max: 0.022
+min: 0.013
+median: 0.016
+mean: 0.0164
+standard_deviation: 0.003382306905057552
+times:
+- 0.018
+- 0.016
+- 0.013
+- 0.022
+- 0.013
+memory_usages:
+- 159621120
+- 159629312
+- 159809536
+- 160182272
+- 160215040
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameter: 8
+iterations: 5
+max: 0.022
+min: 0.013
+median: 0.014
+mean: 0.0152
+standard_deviation: 0.003429285639896449
+times:
+- 0.022
+- 0.014
+- 0.013
+- 0.013
+- 0.014
+memory_usages:
+- 160374784
+- 160423936
+- 160428032
+- 160440320
+- 156041216
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+parameter: 16
+iterations: 5
+max: 0.094
+min: 0.019
+median: 0.019
+mean: 0.033999999999999996
+standard_deviation: 0.03
+times:
+- 0.019
+- 0.094
+- 0.019
+- 0.019
+- 0.019
+memory_usages:
+- 156352512
+- 162160640
+- 162324480
+- 162328576
+- 162328576
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_multithreaded.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameters:
+- 1
+- 2
+- 4
+- 8
+- 16
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameter: 1
+iterations: 5
+max: 0.17
+min: 0.028
+median: 0.047
+mean: 0.0668
+standard_deviation: 0.052158987720238595
+times:
+- 0.17
+- 0.039
+- 0.047
+- 0.05
+- 0.028
+memory_usages:
+- 181968896
+- 184078336
+- 179646464
+- 177377280
+- 177381376
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameter: 2
+iterations: 5
+max: 0.024
+min: 0.021
+median: 0.023
+mean: 0.0228
+standard_deviation: 0.00116619037896906
+times:
+- 0.024
+- 0.024
+- 0.022
+- 0.023
+- 0.021
+memory_usages:
+- 177684480
+- 177700864
+- 177790976
+- 177827840
+- 177864704
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameter: 4
+iterations: 5
+max: 0.032
+min: 0.016
+median: 0.024
+mean: 0.023799999999999998
+standard_deviation: 0.00581033561853358
+times:
+- 0.032
+- 0.019
+- 0.016
+- 0.028
+- 0.024
+memory_usages:
+- 176685056
+- 177737728
+- 177897472
+- 178253824
+- 178262016
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameter: 8
+iterations: 5
+max: 0.054
+min: 0.013
+median: 0.015
+mean: 0.0236
+standard_deviation: 0.015640971836813723
+times:
+- 0.023
+- 0.013
+- 0.054
+- 0.013
+- 0.015
+memory_usages:
+- 178421760
+- 178434048
+- 183693312
+- 183709696
+- 183713792
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+parameter: 16
+iterations: 5
+max: 0.019
+min: 0.011
+median: 0.012
+mean: 0.013799999999999998
+standard_deviation: 0.002925747767665558
+times:
+- 0.019
+- 0.011
+- 0.015
+- 0.012
+- 0.012
+memory_usages:
+- 183840768
+- 183857152
+- 184037376
+- 184045568
+- 184045568
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_count_shared_thread.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_dirp.rb
+parameters:
+- 10000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_dirp.rb
+parameter: 10000
+iterations: 5
+max: 4.441
+min: 3.755
+median: 3.814
+mean: 3.9332000000000003
+standard_deviation: 0.25581587128245187
+times:
+- 4.441
+- 3.853
+- 3.814
+- 3.803
+- 3.755
+memory_usages:
+- 197857280
+- 209858560
+- 221081600
+- 225353728
+- 229273600
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_dirp.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_eval.rb
+parameters:
+- 1000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_eval.rb
+parameter: 1000000
+iterations: 5
+max: 4.707
+min: 3.86
+median: 3.952
+mean: 4.1008
+standard_deviation: 0.30817099149660404
+times:
+- 4.707
+- 4.036
+- 3.949
+- 3.952
+- 3.86
+memory_usages:
+- 284270592
+- 321757184
+- 321998848
+- 322166784
+- 322297856
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_eval.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fannkuch.rb
+parameters:
+- 6
+- 8
+- 10
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fannkuch.rb
+parameter: 6
+iterations: 5
+max: 0.19
+min: 0.026
+median: 0.046
+mean: 0.0692
+standard_deviation: 0.06126140710104527
+times:
+- 0.19
+- 0.054
+- 0.046
+- 0.026
+- 0.03
+memory_usages:
+- 180019200
+- 175886336
+- 176197632
+- 176218112
+- 176226304
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fannkuch.rb
+parameter: 8
+iterations: 5
+max: 0.989
+min: 0.061
+median: 0.159
+mean: 0.3824
+standard_deviation: 0.3673905823507184
+times:
+- 0.989
+- 0.627
+- 0.159
+- 0.076
+- 0.061
+memory_usages:
+- 187797504
+- 197255168
+- 185311232
+- 185372672
+- 185376768
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fannkuch.rb
+parameter: 10
+iterations: 5
+max: 6.726
+min: 6.182
+median: 6.259
+mean: 6.3368
+standard_deviation: 0.19773456956233007
+times:
+- 6.726
+- 6.182
+- 6.229
+- 6.288
+- 6.259
+memory_usages:
+- 265723904
+- 278097920
+- 284119040
+- 291946496
+- 302944256
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fannkuch.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fasta.rb
+parameters:
+- 1000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fasta.rb
+parameter: 1000000
+iterations: 5
+max: 10.177
+min: 8.156
+median: 8.231
+mean: 8.6354
+standard_deviation: 0.77850487474389
+times:
+- 10.177
+- 8.455
+- 8.231
+- 8.156
+- 8.158
+memory_usages:
+- 246722560
+- 284798976
+- 313724928
+- 327430144
+- 327503872
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fasta.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_ffi_printf.rb
+parameters:
+- 100000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_ffi_printf.rb
+parameter: 100000
+iterations: 5
+max: 1.291
+min: 0.432
+median: 0.455
+mean: 0.6396
+standard_deviation: 0.32940285366098454
+times:
+- 1.291
+- 0.455
+- 0.571
+- 0.449
+- 0.432
+memory_usages:
+- 184995840
+- 195817472
+- 209293312
+- 213405696
+- 217686016
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_ffi_printf.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fiber_ring.rb
+parameters:
+- 10
+- 100
+- 1000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fiber_ring.rb
+parameter: 10
+iterations: 5
+max: 0.131
+min: 0.035
+median: 0.062
+mean: 0.0722
+standard_deviation: 0.03192115286138644
+times:
+- 0.131
+- 0.062
+- 0.073
+- 0.06
+- 0.035
+memory_usages:
+- 161714176
+- 165449728
+- 166240256
+- 167759872
+- 169144320
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fiber_ring.rb
+parameter: 100
+iterations: 5
+max: 0.79
+min: 0.57
+median: 0.614
+mean: 0.6522
+standard_deviation: 0.07660391634897008
+times:
+- 0.79
+- 0.675
+- 0.57
+- 0.614
+- 0.612
+memory_usages:
+- 181977088
+- 197533696
+- 207900672
+- 218206208
+- 228483072
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fiber_ring.rb
+parameter: 1000
+status: "Java::JavaLang::OutOfMemoryError unable to create new native thread java.lang.Thread.start0(Native Method)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fiber_ring.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fractal.rb
+parameters:
+- 5
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fractal.rb
+parameter: 5
+iterations: 5
+max: 1.53
+min: 0.328
+median: 0.355
+mean: 0.5878
+standard_deviation: 0.47154062391272294
+times:
+- 1.53
+- 0.388
+- 0.355
+- 0.338
+- 0.328
+memory_usages:
+- 224833536
+- 268124160
+- 308121600
+- 322850816
+- 322863104
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_fractal.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_array.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_array.rb
+parameter: 1
+iterations: 5
+max: 7.229
+min: 4.976
+median: 5.243
+mean: 5.6108
+standard_deviation: 0.835329731303753
+times:
+- 7.229
+- 5.036
+- 4.976
+- 5.57
+- 5.243
+memory_usages:
+- 394072064
+- 429162496
+- 457252864
+- 472870912
+- 510742528
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_array.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_mb.rb
+parameters:
+- 500000
+- 1000000
+- 3000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_mb.rb
+parameter: 500000
+iterations: 5
+max: 1.916
+min: 0.596
+median: 0.74
+mean: 0.9541999999999999
+standard_deviation: 0.48665733324383387
+times:
+- 1.916
+- 0.692
+- 0.74
+- 0.827
+- 0.596
+memory_usages:
+- 285270016
+- 355880960
+- 397221888
+- 381878272
+- 403857408
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_mb.rb
+parameter: 1000000
+iterations: 5
+max: 1.517
+min: 1.07
+median: 1.114
+mean: 1.1838
+standard_deviation: 0.16889452329782628
+times:
+- 1.07
+- 1.517
+- 1.073
+- 1.145
+- 1.114
+memory_usages:
+- 451547136
+- 489447424
+- 538071040
+- 556208128
+- 566882304
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_mb.rb
+parameter: 3000000
+status: "Java::JavaLang::OutOfMemoryError GC overhead limit exceeded org.jruby.RubyArray.newArray(RubyArray.java:160)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_mb.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_string.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_string.rb
+parameter: 1
+iterations: 5
+max: 4.139
+min: 2.413
+median: 2.69
+mean: 2.8762
+standard_deviation: 0.6445647834003965
+times:
+- 4.139
+- 2.72
+- 2.69
+- 2.419
+- 2.413
+memory_usages:
+- 434286592
+- 489537536
+- 521564160
+- 587354112
+- 661708800
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_gc_string.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_knucleotide.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_knucleotide.rb
+parameter: 1
+iterations: 5
+max: 1.589
+min: 0.579
+median: 0.621
+mean: 0.8103999999999999
+standard_deviation: 0.39004081837674376
+times:
+- 1.589
+- 0.654
+- 0.609
+- 0.579
+- 0.621
+memory_usages:
+- 213864448
+- 233644032
+- 245514240
+- 248061952
+- 261214208
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_knucleotide.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_list.rb
+parameters:
+- 1000
+- 10000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_list.rb
+parameter: 1000
+iterations: 5
+max: 0.369
+min: 0.06
+median: 0.062
+mean: 0.1814
+standard_deviation: 0.14792646821985575
+times:
+- 0.356
+- 0.369
+- 0.062
+- 0.06
+- 0.06
+memory_usages:
+- 188346368
+- 193794048
+- 201187328
+- 199806976
+- 207884288
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_list.rb
+parameter: 10000
+iterations: 5
+max: 1.47
+min: 1.032
+median: 1.105
+mean: 1.1684
+standard_deviation: 0.16231401664674558
+times:
+- 1.47
+- 1.198
+- 1.037
+- 1.105
+- 1.032
+memory_usages:
+- 330833920
+- 336961536
+- 337817600
+- 339243008
+- 340094976
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_list.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+parameters:
+- 9689
+- 9941
+- 11213
+- 19937
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+parameter: 9689
+iterations: 5
+max: 4.865
+min: 3.918
+median: 3.928
+mean: 4.119400000000001
+standard_deviation: 0.3730756491651527
+times:
+- 4.865
+- 3.96
+- 3.928
+- 3.918
+- 3.926
+memory_usages:
+- 246505472
+- 249634816
+- 265658368
+- 280367104
+- 290975744
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+parameter: 9941
+iterations: 5
+max: 4.202
+min: 4.182
+median: 4.192
+mean: 4.1908
+standard_deviation: 0.007520638270785237
+times:
+- 4.202
+- 4.192
+- 4.195
+- 4.182
+- 4.183
+memory_usages:
+- 302137344
+- 312430592
+- 322199552
+- 322297856
+- 322310144
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+parameter: 11213
+iterations: 5
+max: 5.606
+min: 5.583
+median: 5.597
+mean: 5.5966
+standard_deviation: 0.007657675887630562
+times:
+- 5.597
+- 5.583
+- 5.596
+- 5.601
+- 5.606
+memory_usages:
+- 322723840
+- 322727936
+- 322809856
+- 322940928
+- 322695168
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+parameter: 19937
+iterations: 5
+max: 25.438
+min: 25.335
+median: 25.351
+mean: 25.3674
+standard_deviation: 0.03842186877287434
+times:
+- 25.351
+- 25.377
+- 25.336
+- 25.335
+- 25.438
+memory_usages:
+- 323039232
+- 322846720
+- 322854912
+- 323063808
+- 323276800
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_lucas_lehmer.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mandelbrot.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mandelbrot.rb
+parameter: 1
+iterations: 5
+max: 6.841
+min: 5.558
+median: 5.712
+mean: 5.8934
+standard_deviation: 0.47897624158198093
+times:
+- 6.841
+- 5.712
+- 5.604
+- 5.558
+- 5.752
+memory_usages:
+- 324591616
+- 328085504
+- 328212480
+- 328249344
+- 328306688
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mandelbrot.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus1.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus1.rb
+parameter: 1
+status: "Java::JavaLang::StackOverflowError  home.miyoshi.ruby_minus_benchmark_minus_suite.benchmarks.micro_minus_benchmarks.bm_mbari_bogus1.method__0$RUBY$outer(/home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus1.rb:7)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus1.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus2.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus2.rb
+parameter: 1
+status: "NoMethodError undefined method `critical=' for Thread:Class /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus2.rb:15:in `outer'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mbari_bogus2.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort.rb
+parameter: 1
+iterations: 5
+max: 2.655
+min: 0.265
+median: 0.368
+mean: 0.8208
+standard_deviation: 0.920636388592152
+times:
+- 2.655
+- 0.368
+- 0.311
+- 0.265
+- 0.505
+memory_usages:
+- 209932288
+- 227123200
+- 237780992
+- 246222848
+- 261263360
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort_hongli.rb
+parameters:
+- 3000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort_hongli.rb
+parameter: 3000
+iterations: 5
+max: 2.013
+min: 0.345
+median: 0.371
+mean: 0.6965999999999999
+standard_deviation: 0.65854433411882
+times:
+- 2.013
+- 0.405
+- 0.371
+- 0.349
+- 0.345
+memory_usages:
+- 192217088
+- 206938112
+- 212135936
+- 214638592
+- 220319744
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_mergesort_hongli.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_meteor_contest.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_meteor_contest.rb
+parameter: 1
+iterations: 5
+max: 7.093
+min: 4.239
+median: 4.43
+mean: 4.940799999999999
+standard_deviation: 1.080890447732794
+times:
+- 7.093
+- 4.557
+- 4.43
+- 4.385
+- 4.239
+memory_usages:
+- 336596992
+- 366960640
+- 368676864
+- 373395456
+- 374784000
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_meteor_contest.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_monte_carlo_pi.rb
+parameters:
+- 10000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_monte_carlo_pi.rb
+parameter: 10000000
+iterations: 5
+max: 2.602
+min: 2.009
+median: 2.029
+mean: 2.1494
+standard_deviation: 0.2276792480662214
+times:
+- 2.602
+- 2.083
+- 2.029
+- 2.009
+- 2.024
+memory_usages:
+- 279142400
+- 321593344
+- 320364544
+- 320364544
+- 320450560
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_monte_carlo_pi.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nbody.rb
+parameters:
+- 100000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nbody.rb
+parameter: 100000
+iterations: 5
+max: 9.161
+min: 0.747
+median: 0.834
+mean: 2.472
+standard_deviation: 3.3446885056758275
+times:
+- 9.161
+- 0.834
+- 0.842
+- 0.776
+- 0.747
+memory_usages:
+- 250224640
+- 303149056
+- 332779520
+- 360251392
+- 361308160
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nbody.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve.rb
+parameters:
+- 9
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve.rb
+parameter: 9
+iterations: 5
+max: 4.904
+min: 1.757
+median: 1.868
+mean: 2.4656
+standard_deviation: 1.2228227344958875
+times:
+- 4.904
+- 1.868
+- 2.023
+- 1.776
+- 1.757
+memory_usages:
+- 306421760
+- 372322304
+- 382459904
+- 387309568
+- 406355968
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve_bits.rb
+parameters:
+- 8
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve_bits.rb
+parameter: 8
+iterations: 5
+max: 1.735
+min: 1.246
+median: 1.252
+mean: 1.3474
+standard_deviation: 0.19381496330263054
+times:
+- 1.735
+- 1.252
+- 1.253
+- 1.251
+- 1.246
+memory_usages:
+- 239132672
+- 277278720
+- 300429312
+- 321445888
+- 329846784
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_nsieve_bits.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_observ.rb
+parameters:
+- 100000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_observ.rb
+parameter: 100000
+iterations: 5
+max: 0.965
+min: 0.157
+median: 0.169
+mean: 0.3244
+standard_deviation: 0.320369536629187
+times:
+- 0.965
+- 0.174
+- 0.157
+- 0.169
+- 0.157
+memory_usages:
+- 181977088
+- 186212352
+- 188342272
+- 191483904
+- 195162112
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_observ.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_open_many_files.rb
+parameters:
+- 50000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_open_many_files.rb
+parameter: 50000
+iterations: 5
+max: 1.742
+min: 1.301
+median: 1.373
+mean: 1.4776
+standard_deviation: 0.1776396352169189
+times:
+- 1.742
+- 1.637
+- 1.373
+- 1.335
+- 1.301
+memory_usages:
+- 175493120
+- 199172096
+- 218427392
+- 234196992
+- 244830208
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_open_many_files.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_partial_sums.rb
+parameters:
+- 2500000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_partial_sums.rb
+parameter: 2500000
+iterations: 5
+max: 5.673
+min: 4.796
+median: 4.82
+mean: 5.0234000000000005
+standard_deviation: 0.33588307489363023
+times:
+- 5.673
+- 5.026
+- 4.802
+- 4.796
+- 4.82
+memory_usages:
+- 271941632
+- 322957312
+- 324055040
+- 324136960
+- 324194304
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_partial_sums.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pathname.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pathname.rb
+parameter: 100
+iterations: 5
+max: 36.977
+min: 34.91
+median: 35.366
+mean: 35.5424
+standard_deviation: 0.7440109138984443
+times:
+- 36.977
+- 35.433
+- 35.366
+- 35.026
+- 34.91
+memory_usages:
+- 293801984
+- 330170368
+- 331329536
+- 331530240
+- 331710464
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pathname.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pi.rb
+parameters:
+- 1000
+- 10000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pi.rb
+parameter: 1000
+iterations: 5
+max: 0.198
+min: 0.04
+median: 0.05
+mean: 0.0794
+standard_deviation: 0.05960402670961082
+times:
+- 0.198
+- 0.059
+- 0.05
+- 0.04
+- 0.05
+memory_usages:
+- 177508352
+- 182001664
+- 183644160
+- 191639552
+- 194347008
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pi.rb
+parameter: 10000
+iterations: 5
+max: 2.437
+min: 2.043
+median: 2.088
+mean: 2.1442
+standard_deviation: 0.14779905277098349
+times:
+- 2.437
+- 2.098
+- 2.043
+- 2.088
+- 2.055
+memory_usages:
+- 281858048
+- 332386304
+- 328052736
+- 328413184
+- 327884800
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_pi.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_primes.rb
+parameters:
+- 3000
+- 30000
+- 300000
+- 3000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_primes.rb
+parameter: 3000
+iterations: 5
+max: 0.791
+min: 0.069
+median: 0.131
+mean: 0.2474
+standard_deviation: 0.2730550127721519
+times:
+- 0.791
+- 0.145
+- 0.131
+- 0.101
+- 0.069
+memory_usages:
+- 206438400
+- 206786560
+- 206962688
+- 210554880
+- 213708800
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_primes.rb
+parameter: 30000
+iterations: 5
+max: 1.085
+min: 0.173
+median: 0.189
+mean: 0.3702
+standard_deviation: 0.35782979194024633
+times:
+- 1.085
+- 0.189
+- 0.18
+- 0.224
+- 0.173
+memory_usages:
+- 225796096
+- 225849344
+- 230109184
+- 230150144
+- 232263680
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_primes.rb
+parameter: 300000
+iterations: 5
+max: 12.531
+min: 1.645
+median: 1.651
+mean: 3.8474000000000004
+standard_deviation: 4.342024900895894
+times:
+- 12.531
+- 1.651
+- 1.762
+- 1.648
+- 1.645
+memory_usages:
+- 299905024
+- 303788032
+- 304414720
+- 308617216
+- 312270848
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_primes.rb
+status: Timeout
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_quicksort.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_quicksort.rb
+parameter: 1
+iterations: 5
+max: 2.658
+min: 1.02
+median: 1.127
+mean: 1.4842
+standard_deviation: 0.6178955898855404
+times:
+- 2.658
+- 1.559
+- 1.127
+- 1.057
+- 1.02
+memory_usages:
+- 235393024
+- 250716160
+- 285892608
+- 289845248
+- 302878720
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_quicksort.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_read_large.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_read_large.rb
+parameter: 100
+iterations: 5
+max: 7.563
+min: 6.499
+median: 6.973
+mean: 7.0684
+standard_deviation: 0.41148880908233704
+times:
+- 6.499
+- 6.797
+- 6.973
+- 7.563
+- 7.51
+memory_usages:
+- 190488576
+- 213192704
+- 224452608
+- 235601920
+- 247652352
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_read_large.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_regex_dna.rb
+parameters:
+- 20
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_regex_dna.rb
+parameter: 20
+iterations: 5
+max: 5.648
+min: 5.117
+median: 5.182
+mean: 5.2867999999999995
+standard_deviation: 0.2010546194445677
+times:
+- 5.648
+- 5.362
+- 5.117
+- 5.182
+- 5.125
+memory_usages:
+- 176214016
+- 177123328
+- 180101120
+- 180150272
+- 180187136
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_regex_dna.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_reverse_complement.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_reverse_complement.rb
+parameter: 1
+iterations: 5
+max: 9.964
+min: 9.241
+median: 9.298
+mean: 9.443999999999999
+standard_deviation: 0.2732434811665233
+times:
+- 9.964
+- 9.472
+- 9.241
+- 9.245
+- 9.298
+memory_usages:
+- 191062016
+- 200933376
+- 208056320
+- 215625728
+- 221306880
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_reverse_complement.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_connect.rb
+parameters:
+- 1
+- 100
+- 500
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_connect.rb
+parameter: 1
+iterations: 5
+max: 0.02
+min: 0.001
+median: 0.001
+mean: 0.005
+standard_deviation: 0.0075099933422074355
+times:
+- 0.02
+- 0.001
+- 0.001
+- 0.002
+- 0.001
+memory_usages:
+- 182288384
+- 178298880
+- 174616576
+- 174862336
+- 174641152
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_connect.rb
+parameter: 100
+iterations: 5
+max: 0.082
+min: 0.042
+median: 0.049
+mean: 0.053799999999999994
+standard_deviation: 0.014661514246489005
+times:
+- 0.082
+- 0.049
+- 0.053
+- 0.043
+- 0.042
+memory_usages:
+- 175570944
+- 175251456
+- 175624192
+- 175644672
+- 175833088
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_connect.rb
+parameter: 500
+iterations: 5
+max: 0.167
+min: 0.12
+median: 0.144
+mean: 0.1416
+standard_deviation: 0.01647543626129518
+times:
+- 0.167
+- 0.144
+- 0.12
+- 0.149
+- 0.128
+memory_usages:
+- 180097024
+- 180334592
+- 180404224
+- 180502528
+- 180645888
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_connect.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_server.rb
+parameters:
+- 1
+- 100
+- 100000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_server.rb
+parameter: 1
+iterations: 5
+max: 0.019
+min: 0.001
+median: 0.001
+mean: 0.005
+standard_deviation: 0.007042726744663603
+times:
+- 0.019
+- 0.003
+- 0.001
+- 0.001
+- 0.001
+memory_usages:
+- 179376128
+- 181657600
+- 183623680
+- 185069568
+- 185008128
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_server.rb
+parameter: 100
+iterations: 5
+max: 0.023
+min: 0.008
+median: 0.012
+mean: 0.013600000000000001
+standard_deviation: 0.005083306010855533
+times:
+- 0.014
+- 0.012
+- 0.023
+- 0.008
+- 0.011
+memory_usages:
+- 174223360
+- 173879296
+- 174370816
+- 174063616
+- 174092288
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_server.rb
+parameter: 100000
+iterations: 5
+max: 1.407
+min: 1.202
+median: 1.276
+mean: 1.2815999999999999
+standard_deviation: 0.07037215358364415
+times:
+- 1.407
+- 1.202
+- 1.231
+- 1.292
+- 1.276
+memory_usages:
+- 177041408
+- 181399552
+- 182489088
+- 188256256
+- 188301312
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_simple_server.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_ackermann.rb
+parameters:
+- 7
+- 9
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_ackermann.rb
+parameter: 7
+iterations: 5
+max: 0.141
+min: 0.016
+median: 0.031
+mean: 0.0482
+standard_deviation: 0.04690159911985944
+times:
+- 0.141
+- 0.034
+- 0.016
+- 0.031
+- 0.019
+memory_usages:
+- 166604800
+- 169349120
+- 169353216
+- 176492544
+- 176861184
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_ackermann.rb
+parameter: 9
+iterations: 5
+max: 0.378
+min: 0.233
+median: 0.256
+mean: 0.27240000000000003
+standard_deviation: 0.05380929287771769
+times:
+- 0.378
+- 0.256
+- 0.259
+- 0.233
+- 0.236
+memory_usages:
+- 192352256
+- 208908288
+- 240500736
+- 253149184
+- 265768960
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_ackermann.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_array.rb
+parameters:
+- 9000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_array.rb
+parameter: 9000
+iterations: 5
+max: 1.472
+min: 0.955
+median: 1.001
+mean: 1.089
+standard_deviation: 0.19320973060381819
+times:
+- 1.472
+- 1.034
+- 1.001
+- 0.955
+- 0.983
+memory_usages:
+- 232345600
+- 279351296
+- 308031488
+- 322740224
+- 322805760
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_array.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_count_words.rb
+parameter: 
+status: "RuntimeError could not compile and compile mode is 'force': /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_count_words.rb org/jruby/RubyKernel.java:1081:in `load'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_count_words.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_exception.rb
+parameters:
+- 500000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_exception.rb
+status: Timeout
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists.rb
+parameters:
+- 1000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists.rb
+parameter: 1000
+iterations: 5
+max: 1.888
+min: 0.984
+median: 1.071
+mean: 1.2133999999999998
+standard_deviation: 0.34141154051964906
+times:
+- 1.888
+- 1.071
+- 1.129
+- 0.984
+- 0.995
+memory_usages:
+- 210403328
+- 231591936
+- 245960704
+- 256720896
+- 268005376
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists_small.rb
+parameters:
+- 1000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists_small.rb
+parameter: 1000
+iterations: 5
+max: 1.14
+min: 0.269
+median: 0.305
+mean: 0.4814
+standard_deviation: 0.33400035928124383
+times:
+- 1.14
+- 0.305
+- 0.422
+- 0.271
+- 0.269
+memory_usages:
+- 185053184
+- 202117120
+- 215384064
+- 221691904
+- 230109184
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_lists_small.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_matrix.rb
+parameters:
+- 60
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_matrix.rb
+parameter: 60
+iterations: 5
+max: 0.621
+min: 0.241
+median: 0.268
+mean: 0.336
+standard_deviation: 0.143664887846683
+times:
+- 0.621
+- 0.296
+- 0.268
+- 0.254
+- 0.241
+memory_usages:
+- 179499008
+- 188489728
+- 199176192
+- 205832192
+- 212398080
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_matrix.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_object.rb
+parameters:
+- 500000
+- 1000000
+- 1500000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_object.rb
+parameter: 500000
+iterations: 5
+max: 0.492
+min: 0.15
+median: 0.163
+mean: 0.2254
+standard_deviation: 0.13341604101456464
+times:
+- 0.492
+- 0.163
+- 0.156
+- 0.166
+- 0.15
+memory_usages:
+- 187260928
+- 186273792
+- 188936192
+- 193224704
+- 195342336
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_object.rb
+parameter: 1000000
+iterations: 5
+max: 0.338
+min: 0.286
+median: 0.297
+mean: 0.30460000000000004
+standard_deviation: 0.01812843070979947
+times:
+- 0.338
+- 0.308
+- 0.297
+- 0.294
+- 0.286
+memory_usages:
+- 197140480
+- 203497472
+- 208449536
+- 210583552
+- 212688896
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_object.rb
+parameter: 1500000
+iterations: 5
+max: 0.435
+min: 0.41
+median: 0.428
+mean: 0.4258
+standard_deviation: 0.008352245207128448
+times:
+- 0.435
+- 0.428
+- 0.428
+- 0.428
+- 0.41
+memory_usages:
+- 216924160
+- 221126656
+- 225468416
+- 227680256
+- 234024960
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_object.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_sieve.rb
+parameters:
+- 4000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_sieve.rb
+parameter: 4000
+iterations: 5
+max: 4.574
+min: 3.714
+median: 3.972
+mean: 3.9956000000000005
+standard_deviation: 0.31161553234715367
+times:
+- 4.574
+- 3.972
+- 3.714
+- 3.729
+- 3.989
+memory_usages:
+- 301760512
+- 319868928
+- 320233472
+- 320598016
+- 320663552
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_so_sieve.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb.rb
+parameters:
+- 10000
+- 1000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb.rb
+parameter: 10000
+iterations: 5
+max: 0.397
+min: 0.208
+median: 0.215
+mean: 0.26260000000000006
+standard_deviation: 0.07259366363533391
+times:
+- 0.397
+- 0.282
+- 0.208
+- 0.211
+- 0.215
+memory_usages:
+- 170729472
+- 176463872
+- 176967680
+- 177106944
+- 177373184
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb.rb
+parameter: 1000000
+iterations: 5
+max: 0.215
+min: 0.195
+median: 0.21
+mean: 0.2084
+standard_deviation: 0.007364781055808785
+times:
+- 0.21
+- 0.195
+- 0.207
+- 0.215
+- 0.215
+memory_usages:
+- 178778112
+- 178806784
+- 182693888
+- 182763520
+- 183332864
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb_noblock.rb
+parameters:
+- 10000
+- 1000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb_noblock.rb
+parameter: 10000
+iterations: 5
+max: 0.414
+min: 0.205
+median: 0.247
+mean: 0.2692
+standard_deviation: 0.07659608345078747
+times:
+- 0.414
+- 0.272
+- 0.208
+- 0.247
+- 0.205
+memory_usages:
+- 182190080
+- 182439936
+- 182607872
+- 183058432
+- 183209984
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb_noblock.rb
+parameter: 1000000
+iterations: 5
+max: 0.227
+min: 0.208
+median: 0.215
+mean: 0.2156
+standard_deviation: 0.006711184694225013
+times:
+- 0.227
+- 0.215
+- 0.218
+- 0.208
+- 0.21
+memory_usages:
+- 184520704
+- 186642432
+- 186728448
+- 186748928
+- 188850176
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_socket_transfer_1mb_noblock.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_spectral_norm.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_spectral_norm.rb
+parameter: 100
+iterations: 5
+max: 0.729
+min: 0.097
+median: 0.12
+mean: 0.34580000000000005
+standard_deviation: 0.2891085609247848
+times:
+- 0.729
+- 0.669
+- 0.12
+- 0.114
+- 0.097
+memory_usages:
+- 172175360
+- 187449344
+- 191307776
+- 198782976
+- 204357632
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_spectral_norm.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_str_chars.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_string_concat.rb
+parameters:
+- 10000000
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_string_concat.rb
+parameter: 10000000
+status: "Java::JavaLang::OutOfMemoryError Java heap space org.jruby.util.ByteList.ensure(ByteList.java:340)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_string_concat.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_sum_file.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_sum_file.rb
+parameter: 100
+iterations: 5
+max: 7.705
+min: 6.586
+median: 6.852
+mean: 6.9502
+standard_deviation: 0.3987693067426328
+times:
+- 7.705
+- 6.946
+- 6.852
+- 6.662
+- 6.586
+memory_usages:
+- 241397760
+- 282480640
+- 307732480
+- 326688768
+- 326733824
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_sum_file.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_word_anagrams.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_word_anagrams.rb
+parameter: 1
+iterations: 5
+max: 3.701
+min: 1.991
+median: 2.203
+mean: 2.4854
+standard_deviation: 0.6319343636802797
+times:
+- 3.701
+- 2.044
+- 2.488
+- 2.203
+- 1.991
+memory_usages:
+- 314605568
+- 340439040
+- 323760128
+- 346324992
+- 332996608
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_word_anagrams.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_write_large.rb
+parameters:
+- 100
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_write_large.rb
+parameter: 100
+iterations: 5
+max: 1.228
+min: 1.181
+median: 1.206
+mean: 1.2044000000000001
+standard_deviation: 0.015054567413247033
+times:
+- 1.228
+- 1.207
+- 1.206
+- 1.181
+- 1.2
+memory_usages:
+- 170651648
+- 170831872
+- 171175936
+- 171511808
+- 176345088
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/micro-benchmarks/bm_write_large.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_create_variations.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_create_variations.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_load_products.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_load_products.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_one_tenth_startup.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_one_tenth_startup.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root_same_session.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root_same_session.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root_with_larger_app_size.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_request_root_with_larger_app_size.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_test_all.rb
+parameter: 
+status: "NoMethodError undefined method `source_index' for Gem:Module /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/substruct/config/../vendor/rails/railties/lib/rails/gem_dependency.rb:21:in `add_frozen_gem_path'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rails/bm_substruct_test_all.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_darkfish.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_darkfish.rb
+parameter: 1
+status: "RuntimeError can't add a new key into hash during iteration org/jruby/RubyHash.java:986:in `[]='"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_darkfish.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_ri.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_ri.rb
+parameter: 1
+status: "RuntimeError can't add a new key into hash during iteration org/jruby/RubyHash.java:986:in `[]='"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_against_itself_ri.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_core_darkfish.rb
+parameters:
+- 1
+ruby_ver: jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_05-b13 +indy [linux-amd64]
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_core_darkfish.rb
+parameter: 1
+status: "SystemExit exit org/jruby/RubyKernel.java:877:in `exit'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/bm_rdoc_core_darkfish.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_answer.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_erb.rb
+parameter: 
+status: "NameError uninitialized constant DATA org/jruby/RubyModule.java:2690:in `const_missing'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_erb.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_factorial.rb
+parameter: 
+status: "Java::JavaLang::StackOverflowError  home.miyoshi.ruby_minus_benchmark_minus_suite.benchmarks.rdoc.ruby_trunk.benchmark.bm_app_factorial.method__0$RUBY$fact(/home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_factorial.rb:2)"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_factorial.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_fib.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_mandelbrot.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_pentomino.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_raise.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_strconcat.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_tak.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_tarai.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_app_uri.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_io_file_create.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_io_file_read.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_io_file_write.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_loop_for.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_loop_generator.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_loop_times.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_loop_whileloop.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_loop_whileloop2.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_ackermann.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_array.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_binary_trees.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_concatenate.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_count_words.rb
+parameter: 
+status: "Errno::ENOENT No such file or directory - /home/miyoshi/ruby-benchmark-suite/utils/wc.input org/jruby/RubyFile.java:361:in `initialize'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_count_words.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_exception.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_fannkuch.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_fasta.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_k_nucleotide.rb
+parameter: 
+status: "Errno::ENOENT No such file or directory - /home/miyoshi/ruby-benchmark-suite/utils/fasta.output.100000 org/jruby/RubyFile.java:361:in `initialize'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_k_nucleotide.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_lists.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_mandelbrot.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_matrix.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_meteor_contest.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_nbody.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_nested_loop.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_nsieve.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_nsieve_bits.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_object.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_partial_sums.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_pidigits.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_random.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_reverse_complement.rb
+parameter: 
+status: "Errno::ENOENT No such file or directory - /home/miyoshi/ruby-benchmark-suite/utils/fasta.output.2500000 org/jruby/RubyFile.java:361:in `initialize'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_reverse_complement.rb
+status: Terminated SIGHUP
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_sieve.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_so_spectralnorm.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_block.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_const.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_ensure.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_ivar.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_ivar_set.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_length.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_neq.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_not.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_rescue.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_simplereturn.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm1_swap.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_array.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_case.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_eval.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_method.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_mutex.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_poly_method.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_poly_method_ov.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_proc.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_regexp.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_send.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_super.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_unif1.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm2_zsuper.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm3_gc.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm3_thread_create_join.rb
+status: success
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm3_thread_mutex.rb
+parameter: 
+status: "ThreadError unable to create new native thread org/jruby/RubyThread.java:440:in `initialize'"
+---
+name: /home/miyoshi/ruby-benchmark-suite/benchmarks/rdoc/ruby_trunk/benchmark/bm_vm3_thread_mutex.rb
+status: Terminated SIGHUP

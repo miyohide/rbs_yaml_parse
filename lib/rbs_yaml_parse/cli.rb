@@ -8,15 +8,16 @@ module RbsYamlParse
       def initialize(command_args)
          @option_parser = OptionParse.new(command_args)
          @data = Hash.new { |h,k| h[k] = {} }
+         @yaml_files = []
       end
 
       def run!
          params = @option_parser.parse
 
          filepath = File.join(params[:d], "**/*.yaml")
-         yaml_files = Dir.glob(filepath).to_a.sort
+         @yaml_files = Dir.glob(filepath).to_a.sort
 
-         yaml_files.each do |yaml_file|
+         @yaml_files.each do |yaml_file|
             File.open(yaml_file) { |file|
                YAML.load_documents(file) do |doc|
                   next if doc["min"].nil?
@@ -27,7 +28,7 @@ module RbsYamlParse
             }
          end
 
-         output_data(params, yaml_files)
+         output_data(params)
       end
 
       def val_map(yaml_doc, params)
@@ -58,26 +59,29 @@ module RbsYamlParse
          val
       end
 
-      def output_data(params, yaml_files)
+      def output_data(params)
          params_keys = %w[mintime maxtime avgtime minmem maxmem avgmem]
 
          params_keys.each do |params_key|
             next unless params.has_key?(params_key.to_sym)
 
             @data.keys.each do |data_key|
-               one_line = data_key.join(",")
-
-               one_line = yaml_files.inject(one_line + ",") do |sum, yaml_file|
-                  sum + @data[data_key][yaml_file][params_key.to_sym].to_s + ","
-               end
-
-               # delete last comma(,)
-               one_line.gsub!(/,+\Z/, '')
-
-               puts one_line
+               puts create_one_line(params_key, data_key)
             end
          end
       end
+
+      def create_one_line(key, data_key)
+         one_line = data_key.join(",")
+
+         one_line = @yaml_files.inject(one_line + ",") do |sum, yaml_file|
+            sum + @data[data_key][yaml_file][key.to_sym].to_s + ","
+         end
+
+         # delete last comma(,)
+         one_line.gsub(/,+\Z/, '')
+      end
+
    end
 end
 
