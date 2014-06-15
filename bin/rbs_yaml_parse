@@ -9,6 +9,7 @@ cli = RbsYamlParse::CLI.new(ARGV)
 
 begin
    cli.run!
+   cli.file_output
 rescue => e
    raise e.class, "#{e.message}", e.backtrace
 end
