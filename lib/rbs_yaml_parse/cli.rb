@@ -78,6 +78,8 @@ module RbsYamlParse
          data_line = @yaml_files.inject("") do |sum, yaml_file|
             unless @data[data_key][yaml_file].nil?
                "#{sum}#{@data[data_key][yaml_file][key.to_sym].to_s},"
+            else
+               "#{sum},"
             end
          end
 
