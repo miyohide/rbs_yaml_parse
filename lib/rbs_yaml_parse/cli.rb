@@ -21,7 +21,7 @@ module RbsYamlParse
          @yaml_files.each do |yaml_file|
             File.open(yaml_file) { |file|
                YAML.load_documents(file) do |doc|
-                  next if doc["min"].nil?
+                  next if doc["parameter"].nil?
                   key = [File.basename(doc["name"]), doc["parameter"]]
 
                   @data[key][yaml_file] = val_map(doc, @params)
@@ -34,29 +34,34 @@ module RbsYamlParse
 
       def val_map(yaml_doc, params)
          val = {}
-         if params[:mintime]
-            val[:mintime] = yaml_doc["min"]
-         end
+         param_keys = [:mintime, :maxtime, :avgtime, :maxmem, :minmem, :avgmem]
 
-         if params[:maxtime]
-            val[:maxtime] = yaml_doc["max"]
+         param_keys.each do |param_key|
+            val[param_key] = data_or_status(yaml_doc, param_key) if params[param_key]
          end
+         # if params[:mintime]
+         #    val[:mintime] = yaml_doc["min"]
+         # end
 
-         if params[:avgtime]
-            val[:avgtime] = yaml_doc["mean"]
-         end
+         # if params[:maxtime]
+         #    val[:maxtime] = yaml_doc["max"]
+         # end
 
-         if params[:maxmem]
-            val[:maxmem] = yaml_doc["memory_usages"].max
-         end
+         # if params[:avgtime]
+         #    val[:avgtime] = yaml_doc["mean"]
+         # end
 
-         if params[:minmem]
-            val[:minmem] = yaml_doc["memory_usages"].min
-         end
+         # if params[:maxmem]
+         #    val[:maxmem] = yaml_doc["memory_usages"].max
+         # end
 
-         if params[:avgmem]
-            val[:avgmem] = yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
-         end
+         # if params[:minmem]
+         #    val[:minmem] = yaml_doc["memory_usages"].min
+         # end
+
+         # if params[:avgmem]
+         #    val[:avgmem] = yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
+         # end
          val
       end
 
@@ -70,6 +75,24 @@ module RbsYamlParse
                puts create_one_line(params_key, data_key)
             end
          end
+      end
+
+      def data_or_status(yaml_doc, data_name)
+         option2yaml_key = {mintime: "min", maxtime: "max", avgtime: "mean"}
+         case data_name
+         when :mintime, :maxtime, :avgtime
+            yaml_doc[option2yaml_key[data_name]].nil? ? modified_status(yaml_doc["status"]) : yaml_doc[option2yaml_key[data_name]]
+         when :maxmem
+            yaml_doc["memory_usages"].nil? ? modified_status(yaml_doc["status"]) : yaml_doc["memory_usages"].max
+         when :minmem
+            yaml_doc["memory_usages"].nil? ? modified_status(yaml_doc["status"]) : yaml_doc["memory_usages"].min
+         when :avgmem
+            yaml_doc["memory_usages"].nil? ? modified_status(yaml_doc["status"]) : yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
+         end
+      end
+
+      def modified_status(status_data)
+         status_data.nil? ? "" : status_data.split(" ", 2)[0]
       end
 
       def create_one_line(key, data_key)
