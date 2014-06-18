@@ -39,29 +39,6 @@ module RbsYamlParse
          param_keys.each do |param_key|
             val[param_key] = data_or_status(yaml_doc, param_key) if params[param_key]
          end
-         # if params[:mintime]
-         #    val[:mintime] = yaml_doc["min"]
-         # end
-
-         # if params[:maxtime]
-         #    val[:maxtime] = yaml_doc["max"]
-         # end
-
-         # if params[:avgtime]
-         #    val[:avgtime] = yaml_doc["mean"]
-         # end
-
-         # if params[:maxmem]
-         #    val[:maxmem] = yaml_doc["memory_usages"].max
-         # end
-
-         # if params[:minmem]
-         #    val[:minmem] = yaml_doc["memory_usages"].min
-         # end
-
-         # if params[:avgmem]
-         #    val[:avgmem] = yaml_doc["memory_usages"].inject(0) { |sum, mem| sum + mem } / yaml_doc["memory_usages"].size
-         # end
          val
       end
 
