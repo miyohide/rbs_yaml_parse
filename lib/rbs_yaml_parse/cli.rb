@@ -28,8 +28,6 @@ module RbsYamlParse
                end
             }
          end
-
-         #output_data(@params)
       end
 
       def val_map(yaml_doc, params)
