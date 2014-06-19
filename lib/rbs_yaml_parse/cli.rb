@@ -3,6 +3,7 @@ require 'yaml'
 module RbsYamlParse
    class CLI
 
+      PARAM_KEYS = [:mintime, :maxtime, :avgtime, :maxmem, :minmem, :avgmem]
       attr_reader :data
 
       def initialize(command_args)
@@ -32,22 +33,19 @@ module RbsYamlParse
 
       def val_map(yaml_doc, params)
          val = {}
-         param_keys = [:mintime, :maxtime, :avgtime, :maxmem, :minmem, :avgmem]
 
-         param_keys.each do |param_key|
+         PARAM_KEYS.each do |param_key|
             val[param_key] = data_or_status(yaml_doc, param_key) if params[param_key]
          end
          val
       end
 
       def output_data(params)
-         params_keys = %w[mintime maxtime avgtime minmem maxmem avgmem]
-
-         params_keys.each do |params_key|
-            next unless params.has_key?(params_key.to_sym)
+         PARAM_KEYS.each do |params_key|
+            next unless params.has_key?(params_key)
 
             @data.keys.each do |data_key|
-               puts create_one_line(params_key, data_key)
+               puts create_one_line(params_key.to_s, data_key)
             end
          end
       end
@@ -90,16 +88,14 @@ module RbsYamlParse
       end
 
       def file_output
-         params_keys = %w[mintime maxtime avgtime minmem maxmem avgmem]
-
-         params_keys.each do |params_key|
+         PARAM_KEYS.each do |params_key|
             file_name = "result_#{params_key}.csv"
             File.open(file_name, "w") { |file|
                file.write "#{csv_header(params_key)}\n"
-               next unless @params.has_key?(params_key.to_sym)
+               next unless @params.has_key?(params_key)
 
                @data.keys.each do |data_key|
-                  file.write "#{create_one_line(params_key, data_key)}\n"
+                  file.write "#{create_one_line(params_key.to_s, data_key)}\n"
                end
             }
          end
