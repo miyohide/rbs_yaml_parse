@@ -84,7 +84,7 @@ module RbsYamlParse
       end
 
       def csv_header(val)
-         "program,params,#{val}"
+         "program,params,#{val.to_s*@yaml_files.size}"
       end
 
       def file_output
