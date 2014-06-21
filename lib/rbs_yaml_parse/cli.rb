@@ -85,8 +85,8 @@ module RbsYamlParse
 
       def csv_header(val)
          heads = []
-         @yaml_files.size.times do |_i|
-            heads << val.to_s
+         @yaml_files.each do |yaml_file|
+            heads << "#{yaml_file}(#{val})"
          end
          "program,params,#{heads.join(',')}"
       end
